@@ -59,5 +59,6 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         if (connected)
             countingService.detach();
         connected = false;
+		//test
     }
 }
